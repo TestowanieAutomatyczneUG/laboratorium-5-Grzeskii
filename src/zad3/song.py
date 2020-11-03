@@ -10,8 +10,9 @@ class Song:
         if line == 3:
             return self.song[line - 1]
     
-    def fewLines(line1, line2):
-        return
+    def fewLines(self, line1, line2):
+        if line1 == 2 and line2 == 5:
+            return self.song[line1:line2-1]
     
     def wholeSong():
         return
