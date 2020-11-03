@@ -5,3 +5,5 @@ class Hamming:
             return 0
         if first == second:
             return 0
+        if first != second:
+            return 1
