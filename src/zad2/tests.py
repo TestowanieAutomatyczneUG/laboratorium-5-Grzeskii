@@ -11,7 +11,7 @@ class RomanNumeralsTest(unittest.TestCase):
 
     def test_3_is_three_i_s(self):
         self.assertEqual(Roman.roman(3), "III")
-    @unittest.skip("skipping")
+
     def test_4_being_5_1_is_iv(self):
         self.assertEqual(Roman.roman(4), "IV")
     @unittest.skip("skipping")
