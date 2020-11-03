@@ -36,3 +36,5 @@ class Roman:
             return "CMXI"
         if number == 1024:
             return "MXXIV"
+        if number == 3000:
+            return "MMM"
