@@ -21,10 +21,13 @@ class Song:
             return self.song[line1:line2-1]
         if line1 == line2:
             return []
+        if type(line1) is not int or type(line2) is not int:
+            raise TypeError("Both arguments must be an int")
         if line1 > line2:
             raise ValueError("First argument must be smallar than the second argument")
         if line1 <= 0 or line2 <= 0:
             raise ValueError("Arguments must not be negative")
+        
     
     def wholeSong(self):
         return self.song
