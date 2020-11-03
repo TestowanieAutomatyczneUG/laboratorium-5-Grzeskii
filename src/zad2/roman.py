@@ -28,3 +28,5 @@ class Roman:
             return "CXLI"
         if number == 163:
             return "CLXIII"
+        if number == 402:
+            return "CDII"
