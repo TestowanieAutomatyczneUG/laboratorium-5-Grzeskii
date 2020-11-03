@@ -6,7 +6,7 @@ class SongLinesTest(unittest.TestCase):
 
     def test_print_first_line(self):
         self.assertEqual(self.temp.line(1), "On the first day of Christmas my true love gave to me: a Partridge in a Pear Tree.")
-    @unittest.skip("skipping")
+
     def test_print_third_line(self):
         self.assertEqual(self.temp.line(3), "On the third day of Christmas my true love gave to me: three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.")
     @unittest.skip("skipping")
