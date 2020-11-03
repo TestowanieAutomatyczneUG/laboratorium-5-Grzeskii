@@ -1,9 +1,10 @@
 import unittest
+from roman import Roman as roman
 
 class RomanNumeralsTest(unittest.TestCase):
    
     def setUp(self):
-        self.temp = Roman()
+        self.temp = roman()
     
     @unittest.skip("skipping")
     def test_1_is_a_single_i(self):
