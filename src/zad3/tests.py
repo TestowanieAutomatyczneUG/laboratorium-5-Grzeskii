@@ -12,7 +12,7 @@ class SongLinesTest(unittest.TestCase):
 
     def test_print_lines_between_two_and_five(self):
         self.assertEqual(self.temp.fewLines(2,5), ["On the third day of Christmas my true love gave to me: three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.", "On the fourth day of Christmas my true love gave to me: four Calling Birds, three French Hens, two Turtle Doves, and a Partridge in a Pear Tree."])
-    @unittest.skip("skipping")
+
     def test_print_lines_between_same_number(self):
         self.assertEqual(self.temp.fewLines(5,5), [])
     @unittest.skip("skipping")
