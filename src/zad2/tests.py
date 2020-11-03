@@ -23,7 +23,7 @@ class RomanNumeralsTest(unittest.TestCase):
 
     def test_9_being_10_1_is_ix(self):
         self.assertEqual(Roman.roman(9), "IX")
-    @unittest.skip("skipping")
+
     def test_20_is_two_x_s(self):
         self.assertEqual(Roman.roman(27), "XXVII")
     @unittest.skip("skipping")
