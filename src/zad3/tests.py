@@ -26,7 +26,7 @@ class SongLinesTest(unittest.TestCase):
     def test_disallow_negative_numbers_of_lines(self):
         with self.assertRaisesWithMessage(ValueError):
             self.temp.line(-8)
-    @unittest.skip("skipping")
+  
     def test_disallow_second_number_smaller_than_first(self):
         with self.assertRaisesWithMessage(ValueError):
             self.temp.fewLines(5, 2)
