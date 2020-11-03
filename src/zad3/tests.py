@@ -38,7 +38,7 @@ class SongLinesTest(unittest.TestCase):
     def test_disallow_type_other_than_int_in_line_method(self):
         with self.assertRaisesWithMessage(TypeError):
             self.temp.line("trzecia")
-    @unittest.skip("skipping")
+
     def test_disallow_type_other_than_int_in_fewLines_method(self):
         with self.assertRaisesWithMessage(TypeError):
             self.temp.fewLines(3, True)
