@@ -12,3 +12,5 @@ class Roman:
             return "V"
         if number == 6:
             return "VI"
+        if number == 9:
+            return "IX"
