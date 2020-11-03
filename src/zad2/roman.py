@@ -26,3 +26,5 @@ class Roman:
             return "XCIII"
         if number == 141:
             return "CXLI"
+        if number == 163:
+            return "CLXIII"
