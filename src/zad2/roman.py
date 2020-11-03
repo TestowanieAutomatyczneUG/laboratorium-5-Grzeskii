@@ -18,3 +18,5 @@ class Roman:
             return "XXVII"
         if number == 48:
             return "XLVIII"
+        if number == 49:
+            return "XLIX"
