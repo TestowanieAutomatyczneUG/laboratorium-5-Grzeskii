@@ -3,7 +3,7 @@ from song import Song
 
 class SongLinesTest(unittest.TestCase):
     
-    @unittest.skip("skipping")
+
     def test_print_first_line(self):
         self.assertEqual(Song.line(1), "On the first day of Christmas my true love gave to me: a Partridge in a Pear Tree.")
     @unittest.skip("skipping")
