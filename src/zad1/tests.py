@@ -1,5 +1,8 @@
+import unittest
+from hamming import Hamming as hamming
+
 class HammingTest(unittest.TestCase):
-    @unittest.skip("skipping")
+    
     def test_empty_strands(self):
         self.assertEqual(hamming.distance("", ""), 0)
     @unittest.skip("skipping")
@@ -40,3 +43,6 @@ class HammingTest(unittest.TestCase):
     
     def assertRaisesWithMessage(self, exception):
         return self.assertRaisesRegex(exception, r".+")
+
+if __name__ == '__main__':
+    unittest.main()
