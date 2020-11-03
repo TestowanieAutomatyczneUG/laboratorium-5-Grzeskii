@@ -38,7 +38,7 @@ class RomanNumeralsTest(unittest.TestCase):
 
     def test_90_being_100_10_is_xc(self):
         self.assertEqual(Roman.roman(93), "XCIII")
-    @unittest.skip("skipping")
+
     def test_100_is_a_single_c(self):
         self.assertEqual(Roman.roman(141), "CXLI")
     @unittest.skip("skipping")
