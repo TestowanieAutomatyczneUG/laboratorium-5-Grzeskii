@@ -4,3 +4,5 @@ class Roman:
             return "I"
         if number == 2:
             return "II"
+        if number == 3:
+            return "III"
