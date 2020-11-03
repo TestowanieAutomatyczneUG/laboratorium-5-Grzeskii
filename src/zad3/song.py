@@ -13,6 +13,8 @@ class Song:
             raise ValueError("Numbers must be between 1 and 12")
         if line <= 0:
             raise ValueError("Numbers must be between 1 and 12")
+        if type(line) is not int:
+            raise TypeError("Argument must be an int")
     
     def fewLines(self, line1, line2):
         if line1 == 2 and line2 == 5:
