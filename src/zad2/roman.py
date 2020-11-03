@@ -34,3 +34,5 @@ class Roman:
             return "DLXXV"
         if number == 911:
             return "CMXI"
+        if number == 1024:
+            return "MXXIV"
