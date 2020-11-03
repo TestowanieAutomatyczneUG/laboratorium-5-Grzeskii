@@ -1,3 +1,4 @@
 class Roman:
-    def Roman(number):
-        return
+    def roman(number):
+        if number == 1:
+            return "I"
