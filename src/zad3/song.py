@@ -11,6 +11,8 @@ class Song:
             return self.song[line - 1]
         if line > 12:
             raise ValueError("Numbers must be between 1 and 12")
+        if line <= 0:
+            raise ValueError("Numbers must be between 1 and 12")
     
     def fewLines(self, line1, line2):
         if line1 == 2 and line2 == 5:
