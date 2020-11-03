@@ -10,3 +10,5 @@ class Roman:
             return "IV"
         if number == 5:
             return "V"
+        if number == 6:
+            return "VI"
