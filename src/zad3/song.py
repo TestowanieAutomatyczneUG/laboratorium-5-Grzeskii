@@ -21,6 +21,8 @@ class Song:
             return []
         if line1 > line2:
             raise ValueError("First argument must be smallar than the second argument")
+        if line1 <= 0 or line2 <= 0:
+            raise ValueError("Arguments must not be negative")
     
     def wholeSong(self):
         return self.song
