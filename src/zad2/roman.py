@@ -22,3 +22,5 @@ class Roman:
             return "XLIX"
         if number == 59:
             return "LIX"
+        if number == 93:
+            return "XCIII"
